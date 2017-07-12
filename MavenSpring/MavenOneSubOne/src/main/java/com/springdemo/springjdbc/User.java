@@ -4,6 +4,20 @@ public class User {
 	private String userName;
 	private String password;
 	private int id;
+	
+	
+	
+	public User() {
+		super();
+	}
+
+	public User(int id, String userName, String password) {
+		super();
+		this.userName = userName;
+		this.password = password;
+		this.id = id;
+	}
+	
 	public String getUserName() {
 		return userName;
 	}
@@ -13,6 +27,7 @@ public class User {
 	public String getPassword() {
 		return password;
 	}
+	
 	public void setPassword(String password) {
 		this.password = password;
 	}
